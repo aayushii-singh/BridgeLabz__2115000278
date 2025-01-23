@@ -4,7 +4,7 @@ public class BMI_W_H {
         Scanner sc = new Scanner(System.in);
         System.out.print("weight in kg: ");
         double w = sc.nextDouble();
-        System.out.print("height in cm: "); // Corrected the quotes here
+        System.out.print("height in cm: ");
         double hCm = sc.nextDouble();
         double hM = hCm / 100;
         double bmi = w / (hM * hM);
