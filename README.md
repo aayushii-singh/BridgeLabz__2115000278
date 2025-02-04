@@ -34,4 +34,8 @@ Feature-02/02/25  - Java Constructors , Instance vs Class Variable , Access MOdi
 --Instance Variables vs Static (Class) Variables
 --Access Modifiers (Public, Private, Protected, Default)
 
-
+Feature-02/02/25 - this,static,final,instanceof 
+--this Keyword: Refers to the current object, resolves variable-method ambiguity, invokes class methods/constructors, and supports constructor chaining.
+--static Keyword: Static members belong to the class, shared across objects, and static methods can't access instance variables or be overridden.
+--final Keyword: Final variables can't be reassigned, methods can't be overridden, classes can't be extended, and its used for constants.
+--instanceof Operator: Checks if an object is an instance of a class, prevents ClassCastException, and ensures correct object type. 
