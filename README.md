@@ -39,3 +39,7 @@ Feature- 04/02/25 - this,static,final,instanceof
 --static Keyword: Static members belong to the class, shared across objects, and static methods can't access instance variables or be overridden.
 --final Keyword: Final variables can't be reassigned, methods can't be overridden, classes can't be extended, and its used for constants.
 --instanceof Operator: Checks if an object is an instance of a class, prevents ClassCastException, and ensures correct object type. 
+
+Feature- 05/02/25
+--Class Diagram shows system structure, including classes, attributes, methods, and relationships.
+--Sequence Diagram illustrates object interactions and message flow over time.
