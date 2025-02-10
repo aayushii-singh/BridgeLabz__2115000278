@@ -43,3 +43,19 @@ Feature- 04/02/25 - this,static,final,instanceof
 Feature- 05/02/25
 --Class Diagram shows system structure, including classes, attributes, methods, and relationships.
 --Sequence Diagram illustrates object interactions and message flow over time.
+
+Feature-07/02/25
+--Inheritance allows a subclass to inherit properties and methods from a superclass, enabling code reuse and extension.
+--Java include single, multilevel, and hierarchical inheritance. Java supports single inheritance but multiple inheritance through interfaces.
+--Method Overriding lets subclasses provide a specific implementation of methods already defined in the superclass, ensuring dynamic behavior.
+--Constructor Inheritance isn't possible, but subclasses can call superclass constructors using super().
+
+Feature-10/02/25
+--Compile-time Polymorphism: Achieved via method overloading (same method name, different parameters).
+Runtime Polymorphism: Achieved via method overriding (subclass provides specific method implementation).
+Polymorphism with Interfaces/Abstract Classes: Multiple implementations of the same method through interfaces and abstract classes.
+Casting and Instanceof: Used to check object types and perform type-specific operations.
+--Encapsulation bundles data and methods into a single unit, restricting access to private fields.
+Data Hiding prevents external access to an object's internal state, ensuring data integrity.
+Flexibility & Reusability allow for easy modification of implementation without affecting other parts of the application.
+Controlled Access ensures validation of data through public getter/setter methods, promoting safer operations.
