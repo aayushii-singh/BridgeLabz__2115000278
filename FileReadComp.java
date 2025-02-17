@@ -2,27 +2,36 @@ import java.io.*;
 
 public class FileReadComp {
 
-    public static void readWithFileReader(String fileName) throws IOException {
-        FileReader fr = new FileReader(fileName);
-        while (fr.read() != -1);
-        fr.close();
+    public static void readFileWithFileReader(String filePath) throws IOException {
+        FileReader fileReader = new FileReader(filePath);
+        int data;
+        while ((data = fileReader.read()) != -1) {
+            System.out.print((char) data);
+        }
+        fileReader.close();
     }
 
-    public static void readWithInputStreamReader(String fileName) throws IOException {
-        InputStreamReader isr = new InputStreamReader(new FileInputStream(fileName));
-        while (isr.read() != -1);
-        isr.close();
+    public static void readFileWithInputStreamReader(String filePath) throws IOException {
+        InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream(filePath));
+        int data;
+        while ((data = inputStreamReader.read()) != -1) {
+            System.out.print((char) data);
+        }
+        inputStreamReader.close();
     }
 
-    public static void main(String[] args) throws IOException {
-        String fileName = "largeFile.txt"; // Create or use an existing large file (500MB) for testing
-
-        long start = System.nanoTime();
-        readWithFileReader(fileName);
-        System.out.println("FileReader Time: " + (System.nanoTime() - start) / 1e6 + "ms");
-
-        start = System.nanoTime();
-        readWithInputStreamReader(fileName);
-        System.out.println("InputStreamReader Time: " + (System.nanoTime() - start) / 1e6 + "ms");
+    public static void main(String[] args) {
+        String filePath = "C:\\Users\\ayush\\Downloads\\DBMS ASSIGNMENT 5.txt";
+        
+        try {
+            System.out.println("Reading with FileReader:");
+            readFileWithFileReader(filePath);
+            
+            System.out.println("\n\nReading with InputStreamReader:");
+            readFileWithInputStreamReader(filePath);
+        } catch (IOException e) {
+            System.out.println("Error reading file: " + e.getMessage());
+        }
     }
 }
+
