@@ -1,0 +1,43 @@
+# Reference Text File
+
+This file serves as a simple reference document. You can use it for notes, reminders, or general information storage.
+
+## To-Do List:
+1. Complete project documentation
+2. Review Git and Linux commands
+3. Update resume and LinkedIn profile
+4. Plan tasks for the upcoming week
+5. Organize files and clean up workspace
+
+## General Notes:
+- Always keep a backup of important files.
+- Regularly update software to avoid security risks.
+- Use strong passwords and enable two-factor authentication.
+- Maintain a to-do list to track daily activities.
+- Take short breaks while working to improve productivity.
+
+## Important Commands:
+### Git Commands:
+- `git status` → Check the current state of your repository.
+- `git pull origin main` → Fetch and merge changes from the main branch.
+- `git push origin feature-branch` → Push feature branch updates.
+
+### Linux Commands:
+- `ls -l` → List files with detailed information.
+- `mkdir new_folder` → Create a new directory.
+- `rm -rf folder_name` → Remove a folder and its contents.
+
+## Quotes for Motivation:
+- "Success is not the key to happiness. Happiness is the key to success."
+- "The only way to do great work is to love what you do."
+- "Don't watch the clock; do what it does. Keep going."
+
+## Miscellaneous Information:
+- Upcoming deadlines: Submit the report by Friday.
+- Meeting scheduled with the project team at 3 PM.
+- Ensure all updates are pushed to the repository before leaving work.
+
+## Closing Notes:
+This text file is intended as a quick reference guide. Feel free to update it as needed and keep track of important tasks and information.
+
+End of file.
